@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">taxiApp</string>
+    <string name="departure_hint">Выберите адрес отправления</string>
+    <string name="arrival_hint">Выберите адрес назначения</string>
+    <string name="time_hint">Макс. ожидание (в мин)</string>
+    <string name="main_button">Начать поиск!</string>
+    <string name="to_adress">Адрес назначения: %1$s</string>
+    <string name="from_adress">Адрес отправления: %1$s</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="map_button">Выбрать</string>
+    <string name="warning_message">Доступны локации только в пределах Санкт-Петербурга!</string>
+    <string name="direction_warning">Точка отправления или прибытия не выбрана</string>
+    <string name="time_not_number">Неверный формат ввода времени ожидания</string>
+    <string name="time_bounds">Максимальное ожидание должно находится в диапазоне 1–15</string>
+    <string name="https_body">https://taxi-routeinfo.taxi.yandex.net/taxi_info?</string>
+    <string name="custom_http">http://51.250.101.124:8080/api/ride/price?</string>
+</resources>
