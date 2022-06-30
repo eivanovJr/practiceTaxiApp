@@ -30,10 +30,10 @@
     <Button
         android:id="@+id/file_button"
         android:text="@string/file_output"
-        android:layout_width="150sp"
+        android:layout_width="175sp"
         android:textColor="@color/black"
         android:backgroundTint="@color/white"
-        android:textSize="6dp"
+        android:textSize="8dp"
         android:layout_marginHorizontal="20sp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/to" />
