@@ -31,6 +31,10 @@ public class TaxiDriver implements Comparable<TaxiDriver>{
 
     public String getRideClass() {return rideClass;}
 
+    public String toString() {
+        return new String(price + " " + rideClass + " " + name + "\n");
+    }
+
     @Override
     public int compareTo(TaxiDriver taxiDriver) {
         if (this.price < taxiDriver.price)

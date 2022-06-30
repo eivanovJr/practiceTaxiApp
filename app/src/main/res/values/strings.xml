@@ -14,4 +14,7 @@
     <string name="time_bounds">Максимальное ожидание должно находится в диапазоне 1–15</string>
     <string name="https_body">https://taxi-routeinfo.taxi.yandex.net/taxi_info?</string>
     <string name="custom_http">http://51.250.101.124:8080/api/ride/price?</string>
+    <string name="file_output">Вывести информацию в файл</string>
+    <string name="file_success">Записано в файл директории TaxiAppOrders</string>
+    <string name="file_error">Не удалось записать файл</string>
 </resources>

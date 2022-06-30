@@ -27,11 +27,22 @@
         android:fontFamily="@font/palanquin_dark_bold"
         android:text="@string/to_adress" />
 
+    <Button
+        android:id="@+id/file_button"
+        android:text="@string/file_output"
+        android:layout_width="150sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:textSize="6dp"
+        android:layout_marginHorizontal="20sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/to" />
+
     <LinearLayout
         android:id="@+id/prices"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_below="@id/to"
+        android:layout_below="@id/file_button"
         android:orientation="horizontal">
         <Button
             android:id="@+id/max_button"
@@ -64,13 +75,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/prices">
-    <TableLayout
-        android:id="@+id/result_table"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"></TableLayout>
+
+        <TableLayout
+            android:id="@+id/result_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"></TableLayout>
     </ScrollView>
 </RelativeLayout>
